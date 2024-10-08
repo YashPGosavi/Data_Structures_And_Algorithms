@@ -164,9 +164,5 @@ public class _4_implementationHashMap {
       System.out.println( hm.containsKey("India"));
 
       System.out.println(hm.remove("us"));
-
-
-     
-
    }
 }

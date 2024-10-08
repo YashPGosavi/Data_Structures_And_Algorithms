@@ -1,6 +1,6 @@
 /*
 * Depth First Search
- 
+
 1. DFS is an algorithm that visits each node in a graph or tree as deep as possible before backtracking. This algorithm follows the LIFO (Last-In-First-Out) stack data structure. It starts from a root node and explores as far as possible along each branch before backtracking. 
 2. It uses a stack data structure to keep track of the nodes to be visited.
 3. DFS can traverse an entire graph or tree in linear time, but it is not guaranteed to find the shortest path between two nodes. It is often used in applications such as maze solving, topological sorting, and graph coloring.
@@ -15,7 +15,7 @@ Applications of DFS:
     1. Topological Sorting
     2. Cycle detection
     3. Solve maze problem
-   
+
  */
 
 import java.util.ArrayList;

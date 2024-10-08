@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 // public class _1_while {
 //     public static void main(String[] args) {
 //         int i=0;

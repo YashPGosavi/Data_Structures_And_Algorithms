@@ -5,7 +5,6 @@ For sorting in Ascending Order --> Max Heap
 For sorting in Descending Order --> Min Heap
  */
 
-import java.util.ArrayList;
 
 public class _7_heapSort {
 

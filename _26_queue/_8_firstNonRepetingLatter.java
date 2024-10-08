@@ -28,6 +28,9 @@ public class _8_firstNonRepetingLatter {
                 System.out.print(q.peek()+" ");
             }
         }
+
+        char ch =  'd';
+        System.out.println(freq[ch-'a']);
     }
     public static void main(String[] args) {
         String s = "aabccxb";

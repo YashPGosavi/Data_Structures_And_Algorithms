@@ -1,7 +1,7 @@
 /*
 What is a BST?
 
-Binary Tree
+Binary Search Tree
     a. Left Subtree Nodes < Root
     b. Right Subtree Nodes > Root
     c. Left & Right Subtrees are also BST with no duplicates

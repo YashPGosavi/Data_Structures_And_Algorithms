@@ -1,18 +1,18 @@
 /*
 HashMap :-
 Pedifined framework of java
-It is unordered Maps.
-It is (key,value) pair, where key is always unique.
+            It is unordered Maps.
+            It is (key,value) pair, where key is always unique.
 
 HashMap Operations TC = O(1)
 
-    1. put(key, value)
-    2. get(key)
-    3. containsKey(key)
-    4. remove(key)
-    5. size()
-    6. isEmpty()
-    7. clear() --> empty the hashmap
+        1. put(key, value)
+        2. get(key)
+        3. containsKey(key)
+        4. remove(key)
+        5. size()
+        6. isEmpty()
+        7. clear() --> empty the hashmap
 
  */
 

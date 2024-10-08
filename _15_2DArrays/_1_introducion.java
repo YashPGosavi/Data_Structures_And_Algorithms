@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 /*
- 2D Arrays :-MATRIX (ROWS & COLUMNS)
 
- Real life Example :- lenght and breadth
+2D Arrays :-MATRIX (ROWS & COLUMNS)
+
+Real life Example :- lenght and breadth
 
  Matrix :- ( n*m ) = total no of cells = rows * columns
 

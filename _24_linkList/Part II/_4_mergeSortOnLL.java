@@ -81,7 +81,7 @@ public class _4_mergeSortOnLL {
         return slow; // mid Node
     }
 
-    // Merging teo link list
+    // Merging two link list
     private Node merge(Node lNode, Node rNode) {
         Node mergeLL = new Node(-1);
         Node temp = mergeLL;

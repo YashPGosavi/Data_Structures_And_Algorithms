@@ -39,7 +39,7 @@ public class _7_validateBST {
             return false;
         }
         return isBST(root.left, min, root) && isBST(root.right, root, max);
-    }
+    }  
 
     
     public static void main(String[] args) {
@@ -64,7 +64,7 @@ public class _7_validateBST {
             root = insert(root, values[i]);
         }
 
-        System.out.println(isBST(root, null,null ));
+        System.out.println(isBST(root, null, null));
         
     }
 }

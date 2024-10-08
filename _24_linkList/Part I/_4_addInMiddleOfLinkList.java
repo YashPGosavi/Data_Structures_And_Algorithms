@@ -32,7 +32,7 @@ public class _4_addInMiddleOfLinkList {
     }
 
     public void addLast(int data){
-      
+    
         Node newNode = new Node(data);
 
         if(head==null){
@@ -65,7 +65,7 @@ public class _4_addInMiddleOfLinkList {
         Node temp = head;
         int i = 0;
 
-        while(i<indx-1){
+        while(i<indx-2){
             temp = temp.next;
             i++;
         }
@@ -74,6 +74,7 @@ public class _4_addInMiddleOfLinkList {
         newNode.next = temp.next;
         temp.next = newNode;
     }
+    
     public static void main(String[] args) {
         _4_addInMiddleOfLinkList ll = new _4_addInMiddleOfLinkList();
 

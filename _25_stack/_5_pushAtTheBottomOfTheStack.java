@@ -8,6 +8,7 @@ public class _5_pushAtTheBottomOfTheStack{
 
     public static void pushBottom(Stack<Integer> s, int n){
         if(s.isEmpty()){
+            s.push(n);
             return;
         }
         
@@ -23,8 +24,9 @@ public class _5_pushAtTheBottomOfTheStack{
         s.push(1);
         s.push(2);
         s.push(3);
-
-        pushBottom(s,4);
+        s.push(4);
+        // s.push(0);
+        pushBottom(s,0);
 
         while(!s.isEmpty()){
             System.out.println(s.peek());

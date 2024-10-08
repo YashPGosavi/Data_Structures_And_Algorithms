@@ -22,7 +22,6 @@ import java.util.Scanner;
 //     }
 // }
 
-
 //Que. Write a program to find the factorial of any number entered by the user.
 
 // public class _6_questionBank {
@@ -45,8 +44,8 @@ public class _6_questionBank {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Number : ");
         int n = sc.nextInt();
-       for(int i=1;i<=10;i++){
-        System.out.println(n +" * "+i +" = "+ n*i);
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " * " + i + " = " + n * i);
         }
         sc.close();
     }

@@ -1,5 +1,5 @@
 // public class _11_rotateAnArray {
-    
+
 //     public static void rotate(int arr[], int n, int k) {
 //         int temp[] = new int[n];
 //         int idx = 0;
@@ -36,19 +36,17 @@
 
 // }
 
-
 public class _11_rotateAnArray {
-    
+
     public static void rotate(int A[], int low, int high) {
 
-        while(low<high){
+        while (low < high) {
             int temp = A[low];
             A[low] = A[high];
             A[high] = temp;
             low++;
             high--;
         }
-
     }
 
     public static void main(String args[]) throws Exception {
@@ -56,12 +54,22 @@ public class _11_rotateAnArray {
         int N = 5;
         int K = 2;
 
-        K = K%N;
-        // rotate(arr, 0, N-K-1);
-        // rotate(arr, N-K, N-1);
-        // rotate(arr, 0,N-1);
+        K = K % N;
+        
+        rotate(arr, 0, N - K - 1);
+        for (int i = 0; i < N; i++) {
+            System.out.print(arr[i] + " ");
+        }
+System.out.println();
 
-            for (int i = 0; i < N; i++) {
+        rotate(arr, N - K, N - 1);
+        for (int i = 0; i < N; i++) {
+            System.out.print(arr[i] + " ");
+        }
+System.out.println();
+
+        rotate(arr, 0, N - 1);
+        for (int i = 0; i < N; i++) {
             System.out.print(arr[i] + " ");
         }
     }

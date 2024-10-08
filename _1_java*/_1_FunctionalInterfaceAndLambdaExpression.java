@@ -19,7 +19,7 @@
     return-type class-name (para-list); // Anonimous Method
 
 
-    (para-list)->{ // Lambda Expressoin
+    (para-list)->{ // Lambda Expression
             //method-body
     };
 */

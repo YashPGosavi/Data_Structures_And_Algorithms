@@ -6,6 +6,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_4_addInMiddleOfLinkList",
+            "request": "launch",
+            "mainClass": "_4_addInMiddleOfLinkList",
+            "projectName": "Data Structure_1c4330f6"
+        },
+        {
+            "type": "java",
+            "name": "_8_subArraySum",
+            "request": "launch",
+            "mainClass": "_8_subArraySum",
+            "projectName": "Data Structure_1c4330f6"
+        },
+        {
+            "type": "java",
+            "name": "_6_removeNodeFromLinkList",
+            "request": "launch",
+            "mainClass": "_6_removeNodeFromLinkList",
+            "projectName": "Data Structure_1c4330f6"
+        },
+        {
+            "type": "java",
+            "name": "_9_questionBankOfMethod",
+            "request": "launch",
+            "mainClass": "_9_questionBankOfMethod",
+            "projectName": "Data Structure_920bd940"
+        },
+        {
+            "type": "java",
+            "name": "_7_binaryDecimalConversion",
+            "request": "launch",
+            "mainClass": "_7_binaryDecimalConversion",
+            "projectName": "Data Structure_920bd940"
+        },
+        {
+            "type": "java",
+            "name": "_3_insertionSort",
+            "request": "launch",
+            "mainClass": "_3_insertionSort",
+            "projectName": "Data Structure_920bd940"
+        },
+        {
+            "type": "java",
+            "name": "_2_selectionSort",
+            "request": "launch",
+            "mainClass": "_2_selectionSort",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_1_mergeSort",
+            "request": "launch",
+            "mainClass": "_1_mergeSort",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_10_cheakPalindrome",
+            "request": "launch",
+            "mainClass": "_10_cheakPalindrome",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_5_nQueensProblem",
+            "request": "launch",
+            "mainClass": "_5_nQueensProblem",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_5_countingSort",
+            "request": "launch",
+            "mainClass": "_5_countingSort",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_2_pqWithObject",
+            "request": "launch",
+            "mainClass": "_2_pqWithObject",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_4_hasPath",
+            "request": "launch",
+            "mainClass": "_4_hasPath",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_7_suduko",
+            "request": "launch",
+            "mainClass": "_7_suduko",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_8_firstNonRepetingLatter",
+            "request": "launch",
+            "mainClass": "_8_firstNonRepetingLatter",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
+            "name": "_2_operationnFunctoinOnArray",
+            "request": "launch",
+            "mainClass": "_2_operationnFunctoinOnArray",
+            "projectName": "Data Structure_b3a49d00"
+        },
+        {
+            "type": "java",
             "name": "_3_fractionalKnapsack",
             "request": "launch",
             "mainClass": "_3_fractionalKnapsack",

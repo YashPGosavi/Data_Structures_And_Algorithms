@@ -1,8 +1,8 @@
 /*
 
 Tree :-
-Hirarchical data structure
-
+        Hirarchical data structure
+        
 */ 
 public class _1_introductionToTree {
 

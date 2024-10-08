@@ -11,8 +11,8 @@ Height of Tree
 
  */
 public class _7_heightOfTree {
-    
-    static class Node{
+
+    static class Node {
         int data;
         Node left;
         Node right;
@@ -42,22 +42,23 @@ public class _7_heightOfTree {
             return newNode;
         }
 
-        int heightOfTree(Node root){
+        int heightOfTree(Node root) {
 
-            if(root==null){
+            if (root == null) {
                 return 0;
             }
 
             int leftHeight = heightOfTree(root.left);
             int rightHeight = heightOfTree(root.right);
 
-            int maxHeight = Math.max(leftHeight,rightHeight) + 1;
+            int maxHeight = Math.max(leftHeight, rightHeight) + 1;
 
             return maxHeight;
         }
 
     }
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
         int node[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
 
         BinaryTree b = new BinaryTree();

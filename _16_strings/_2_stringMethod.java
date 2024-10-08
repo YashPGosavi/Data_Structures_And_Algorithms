@@ -1,12 +1,12 @@
 /*
+
 1] .length()
 2] .concat(index)
 3] .charAt()
 4] .equals() 
 5] .equalsIgnoreCase()
-6] .sunString(begin_index)
-    .sunString(begin_index, ending index)
-
+6] .subString(begin_index)
+6.1 ] .subString(begin_index, ending index)
 7] .toUpperCase()
 8] .toLowerCase()
 

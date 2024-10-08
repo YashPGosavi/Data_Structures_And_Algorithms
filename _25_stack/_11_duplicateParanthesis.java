@@ -39,9 +39,9 @@ public class _11_duplicateParanthesis {
 
     public static void main(String[] args) {
         String str1 = "((atb))"; //true
-        String str2 = "(a-b)"; //false
+        String str2 = "(a+b)(a-d)"; //false
         System.out.println("is duplicate paranthesis is present in ((atb)) :- "+duplicateParanthesis(str1));
-        System.out.println("is duplicate paranthesis is present in (a-b) :- "+duplicateParanthesis(str2));
+        System.out.println("is duplicate paranthesis is present in (a+b)(a-d) :- "+duplicateParanthesis(str2));
 
     }
 }

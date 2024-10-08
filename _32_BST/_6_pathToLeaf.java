@@ -36,7 +36,7 @@ public class _6_pathToLeaf {
             return;
         }
 
-  
+
         arr.add(root.data);
 
         if(root.left == null && root.right==null){

@@ -7,7 +7,7 @@ Operations
             TC = O(1)
 
             2. arraylist_name.add(index, element);  --> Adds at provided index
-             TC = O(n) 
+            TC = O(n) 
     
 
 2. Get Element --> extract element from required index in the arraylist

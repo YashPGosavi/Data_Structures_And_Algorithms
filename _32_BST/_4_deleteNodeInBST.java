@@ -81,6 +81,7 @@ public class _4_deleteNodeInBST {
         return root;
     }
 
+    // Delete Node
     static Node delete(Node root, int val) {
         if (root.data < val) {
             root.right = delete(root.right, val);

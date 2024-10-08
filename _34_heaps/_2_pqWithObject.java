@@ -15,8 +15,9 @@ public class _2_pqWithObject {
         public int compareTo(student s2){
             return this.rank-s2.rank;
         }
-
     }
+    
+    @SuppressWarnings("unlikely-arg-type")
     public static void main(String[] args) {
         
         PriorityQueue<student> pq = new PriorityQueue<>(Comparator.reverseOrder());
@@ -33,6 +34,9 @@ public class _2_pqWithObject {
             pq.remove();
         }
 
+        student std = new student("A", 0);
+
+        System.out.println(pq.contains(std.name));
 
     }
 }

@@ -4,7 +4,7 @@ Remove Operation in LinkList
 2) Remove Last.
  */
 public class _6_removeNodeFromLinkList {
- 
+
     public static class Node{
         int data;
         Node next;
@@ -20,7 +20,7 @@ public class _6_removeNodeFromLinkList {
     public static int size;
 
     public void addFirst(int data){
-       
+    
         Node newNode = new Node(data);
         size++;
         if(head == null){

@@ -38,9 +38,9 @@ Traditional Method
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 
 /*
- 
+
 Prefix Method
- 
+
 *) Prefix[i] = Prefix[i-1] + arr[i];
 
 **) Prefix[End] - Prefix[Start-1];
@@ -91,9 +91,9 @@ Prefix Method
 
 /*
 Use for Max Sum :-
- Kaddans algorithm :- If sum == -Integer{
-                            sum=0;
-                             }
+    Kaddans algorithm :- If sum == -Integer{
+                                sum=0;
+                                }
 
 Time Complexity : O(n);
  */

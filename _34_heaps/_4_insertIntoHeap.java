@@ -28,7 +28,6 @@ public class _4_insertIntoHeap {
                 // Update values
                 child = parent;
                 parent = child -1 / 2;
-
             }
         }
     }

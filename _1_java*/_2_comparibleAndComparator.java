@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class _3_comparibleAndComparator {
+public class _2_comparibleAndComparator {
 
     public static void main(String[] args) {
 

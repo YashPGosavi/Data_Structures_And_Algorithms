@@ -1,11 +1,11 @@
 /*
- Sub-Array :- a continuous part of array.
+Sub-Array :- a continuous part of array.
 
 
- Input :-
+Input :-
         arr = {1,2,3,4,5};
 
- Output :-
+Output :-
 
         1 
         1 2 

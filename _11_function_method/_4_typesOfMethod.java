@@ -14,7 +14,7 @@
                 
 */
 /*
- Static and instance methods
+Static and instance methods
 
     1.  Static :-
             We dont have to create object to call this method.
@@ -37,7 +37,8 @@ public class _4_typesOfMethod {
     public static void main(String[] arg) {
         System.out.println(area1(5)); // Static method.
 
-        _4_typesOfMethod c=new _4_typesOfMethod();int a=c.area2(5); // instance method.
+        _4_typesOfMethod c = new _4_typesOfMethod();
+        int a = c.area2(5); // instance method.
         System.out.println(a);
 
     }
