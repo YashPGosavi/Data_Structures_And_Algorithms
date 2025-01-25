@@ -6,6 +6,27 @@ Que. 0-1 Triangle
     1 0 1
     0 1 0 1
     1 0 1 0 1
+
+
+public class ZeroOneTriangle {
+
+    public static void printZeroOneTriangle(int n) {
+        for (int i = 0; i < n; i++) {
+            int start = i % 2 == 0 ? 1 : 0; // Even rows start with 1, odd rows with 0
+            
+            for (int j = 0; j <= i; j++) {
+                System.out.print(start + " ");
+                start = 1 - start; // Alternate between 1 and 0
+            }
+            System.out.println(); // Move to the next line after each row
+        }
+    }
+
+    public static void main(String[] args) {
+        int n = 5;  // Number of rows
+        printZeroOneTriangle(n);
+    }
+}
  */
 public class _5_0and1Triangle {
     public static void pattern(int n) {

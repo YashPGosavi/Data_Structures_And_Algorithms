@@ -36,7 +36,7 @@ public class _1_FunctionalInterfaceAndLambdaExpression {
         // In this case the interface must have the only one abstract method(Functional Method).
         Transaction obj = (int amt) -> 
         { 
-                System.out.println("Amout is : " + amt);
+            System.out.println("Amout is : " + amt);
         };
 
         obj.withDraw(10);

@@ -12,7 +12,6 @@ import java.util.Scanner;
 // }
 // }
 
-
 //Que. find factorial
 
 // public class _3_questions {
@@ -42,28 +41,29 @@ n       n!
 */
 
 public class _3_questions {
-    public static int fact(int n){
+
+    public static int fact(int n) {
         int fact = 1;
-        for(int i=1;i<=n;i++){
-            fact *=i;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
         }
         return fact;
     }
-    public static int BinCoe(int n,int r){
-       int a = fact(n);
-       int b = fact(r)*fact(n-r);
-       int BinCoe = a/b;
+
+    public static int BinCoe(int n, int r) {
+        int a = fact(n);
+        int b = fact(r) * fact(n - r);
+        int BinCoe = a / b;
         return BinCoe;
     }
 
-
-public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter Value of n: ");
-    int n = sc.nextInt();
-    System.out.println("Enter Value of r: ");
-    int r = sc.nextInt();
-    System.out.println("The ans is : "+BinCoe(n,r));
-    sc.close();
-}
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Value of n: ");
+        int n = sc.nextInt();
+        System.out.println("Enter Value of r: ");
+        int r = sc.nextInt();
+        System.out.println("The ans is : " + BinCoe(n, r));
+        sc.close();
+    }
 }

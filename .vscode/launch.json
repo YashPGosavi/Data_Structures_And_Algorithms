@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_10_stockBuySell",
+            "request": "launch",
+            "mainClass": "_10_stockBuySell",
+            "projectName": "Data Structure_46a2f536"
+        },
+        {
+            "type": "java",
             "name": "_4_addInMiddleOfLinkList",
             "request": "launch",
             "mainClass": "_4_addInMiddleOfLinkList",

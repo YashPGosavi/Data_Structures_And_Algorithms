@@ -1,7 +1,8 @@
 import java.util.*;
 
-// Binary To Decimal
 public class _7_binaryDecimalConversion {
+
+    // Binary To Decimal
     public static int binToDec(int n) {
         int dec = 0;
         int pow = 0;
@@ -15,6 +16,7 @@ public class _7_binaryDecimalConversion {
         return dec;
     }
 
+    // Decimal To Binary
     public static int decToBin(int n) {
         int Bin = 0;
         int pow = 0;
@@ -28,14 +30,14 @@ public class _7_binaryDecimalConversion {
     }
 
     public static void main(String[] args) {
-        
-        Scanner sc = new Scanner(System.in);
-        
-        // int n1 = sc.nextInt();
-        // System.out.println(binToDec(n1));
 
-        int n2 = sc.nextInt();
-        System.out.println(decToBin(n2));
+        Scanner sc = new Scanner(System.in);
+
+        int n1 = sc.nextInt();
+        System.out.println(binToDec(n1));
+
+        // int n2 = sc.nextInt();
+        // System.out.println(decToBin(n2));
 
         sc.close();
     }
