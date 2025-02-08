@@ -11,13 +11,6 @@ Merge Sort : ( Divide and Conquare Approch is used in Merge Sort. )
 
  */
 public class _1_mergeSort {
-    // For Pringting Array
-    public static void printArr(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
 
     public static void mergeSort(int[] arr, int si, int ei) {
 
@@ -41,7 +34,6 @@ public class _1_mergeSort {
         int k = 0; // counter dfor temp array
 
         while (i <= mid && j <= ei) {
-            System.out.println(arr[i] + " " + arr[j]);
             if (arr[i] < arr[j]) {
                 temp[k++] = arr[i++];
             } else {
@@ -65,6 +57,15 @@ public class _1_mergeSort {
 
     }
 
+
+    // For Pringting Array
+    public static void printArr(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+    
     public static void main(String[] args) {
         // int arr[] = { 6, 3, 9, 5, 2, 8,};
         int arr[] = { 3, 6, 1, 7, 2, 9 };

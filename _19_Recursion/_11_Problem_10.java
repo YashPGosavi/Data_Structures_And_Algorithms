@@ -17,6 +17,6 @@ public class _11_Problem_10 {
     }
 
     public static void main(String[] args) {
-        System.out.println(tileProblem(4));
+        System.out.println(tileProblem(3));
     }
 }

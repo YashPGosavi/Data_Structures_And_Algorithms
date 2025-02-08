@@ -1,6 +1,5 @@
 /*
   Functional Interface & Lambda Expression
-  
  */
 
 // Lambda Expression

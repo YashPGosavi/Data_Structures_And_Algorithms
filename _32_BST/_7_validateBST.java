@@ -38,6 +38,7 @@ public class _7_validateBST {
         if( (min!=null && root.data < min.data) || (max!=null && root.data > max.data) ){
             return false;
         }
+        
         return isBST(root.left, min, root) && isBST(root.right, root, max);
     }  
 

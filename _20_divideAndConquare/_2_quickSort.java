@@ -18,13 +18,6 @@
 
 public class _2_quickSort {
 
-    public static void printArr(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
-
     public static void quickSort(int arr[], int si, int ei) {
         //Base Case
         if (si >= ei) {
@@ -59,6 +52,14 @@ public class _2_quickSort {
 
         return i;
     }
+
+    public static void printArr(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
 
     public static void main(String[] args) {
         int arr[] = { 6, 3, 9, 8, 2, 5 };
