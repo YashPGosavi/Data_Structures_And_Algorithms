@@ -39,7 +39,7 @@ public class _2_quickSort {
             if (arr[j] <= pivot) {
                 i++;
 
-                // Swap arr[i] and arr[j]
+                // Swap arr[i] and arr[ji                
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
