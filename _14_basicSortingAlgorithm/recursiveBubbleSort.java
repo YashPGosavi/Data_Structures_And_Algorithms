@@ -9,7 +9,7 @@
 
  */
 
-public class recursiveBubbleSort {
+public class RecursiveBubbleSort {
 
     // Method to perform Recursive Bubble Sort
     public static void recursiveBubbleSort(int[] arr, int n) {

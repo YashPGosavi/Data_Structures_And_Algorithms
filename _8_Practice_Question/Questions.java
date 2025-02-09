@@ -1,9 +1,8 @@
-import java.util.Scanner;
 
 /*
  Q.1) Enter 3 numbers from the user & make a function to print their average.
  */
-
+// import java.util.Scanner;
 // public class Questions{
 //     static int avg(int a,int b,int c){
 //         return (a+b+c)/3;
@@ -24,6 +23,7 @@ import java.util.Scanner;
  Q.2) Write a function to print the sum of all odd numbers from 1 to n.
  */
 
+// import java.util.Scanner;
 // public class Questions{
 //     static int oddsum(int n){
 //         int a=0;
@@ -46,6 +46,7 @@ import java.util.Scanner;
 /*
 Q.3) Write a function which takes in 2 numbers and returns the greater of those two.
  */
+// import java.util.Scanner;
 // public class Questions{
 //     static int compare(int n,int m){
 //         if(n>m){
@@ -70,7 +71,7 @@ Q.3) Write a function which takes in 2 numbers and returns the greater of those 
 /*
 Q.4) Write a function that takes in the radius as input and returns the circumference of a circle.
  */
-
+// import java.util.Scanner;
 // public class Questions{
 //     static double circumference(Double r){
 //         return 2*Math.PI*r;

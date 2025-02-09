@@ -16,7 +16,6 @@ public class _7_majorityElement {
         HashMap<Integer, Integer> hm = new HashMap<>();
 
         for (int i = 0; i < arr.length; i++) {
-            int count = 1;
             hm.put(arr[i], hm.getOrDefault(arr[i], 0) + 1);
         }
 
@@ -32,7 +31,7 @@ public class _7_majorityElement {
 
     public static void main(String[] args) {
 
-        int nums[] = { 1,2 };
+        int nums[] = { 1, 2 };
 
         majorityElement(nums);
     }

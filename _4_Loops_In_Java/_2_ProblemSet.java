@@ -13,5 +13,6 @@ public class _2_ProblemSet {
             i=i+2;
         }
         System.out.println(ans);
+        sc.close();
     }
 }

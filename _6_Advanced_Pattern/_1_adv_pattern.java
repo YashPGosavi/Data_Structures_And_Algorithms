@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 // import java.util.Scanner;
 
 
@@ -9,6 +8,8 @@ import java.util.ArrayList;
  8 9 12 13
  10 11
  */
+
+// import java.util.ArrayList;
 // public class _1_adv_pattern{
 //     public static void main(String[] args){
 //         ArrayList<ArrayList<Integer>> a = new ArrayList<>();

@@ -42,6 +42,7 @@ public class _2_java_conditional_statment {
 
         String result = (marks>=50) ? "Pass" : "fail";
         System.out.println(result);
+        sc.close();
         
     }
 }

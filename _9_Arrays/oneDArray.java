@@ -1,9 +1,8 @@
-import java.util.Scanner;
 
 /*
 Q.1) Take an array as input from the user. Search for a given number x and print the index at which it occurs.
  */
-
+// import java.util.Scanner;
 //  public class oneDArray{
 //      public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
@@ -32,6 +31,8 @@ Q.1) Take an array as input from the user. Search for a given number x and print
 /*
 Q.2) Take an array of names as input from the user and print them on the screen.
  */
+
+// import java.util.Scanner;
 // public class oneDArray{
 //     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
@@ -57,6 +58,7 @@ Q.2) Take an array of names as input from the user and print them on the screen.
 Q.3) Find the maximum & minimum number in an array of integers.
  */
 
+// import java.util.Scanner;
 //  public class oneDArray{
 //     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
@@ -89,6 +91,7 @@ Q.3) Find the maximum & minimum number in an array of integers.
  Q.4) Take an array of numbers as input and check if it is an array sorted in ascending order.
  */
 
+// import java.util.Scanner; 
 //  public class oneDArray{
 //     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);

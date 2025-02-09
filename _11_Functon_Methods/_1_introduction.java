@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 /* 
 public class _1_introduction{
     static double sum(double a,double b){ // Here the input double a,double b i called parameter or formal parameter, formal parameter Write on the  function defination.
