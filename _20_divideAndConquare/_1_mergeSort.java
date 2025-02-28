@@ -10,65 +10,81 @@ Merge Sort : ( Divide and Conquare Approch is used in Merge Sort. )
 * Space Complexity = O(n) --> We use temp array of size n
 
  */
+
 public class _1_mergeSort {
-    // For Pringting Array
-    public static void printArr(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+
+    public static void mergeSort(int[] arr, int left, int right) {
+        if (left < right) {
+            // Find the middle point
+            int mid = left + (right - left) / 2;
+
+            // Sort first and second halves
+            mergeSort(arr, left, mid);
+            mergeSort(arr, mid + 1, right);
+
+            // Merge the sorted halves
+            merge(arr, left, mid, right);
+        }
+    }
+
+    public static void merge(int[] arr, int left, int mid, int right) {
+        // Sizes of the two subarrays to be merged
+        int n1 = mid - left + 1; // n1 = mid - left + 1 -> provides the size of the left subarray
+        int n2 = right - mid; // n2 = right - mid -> provides the size of the right subarray
+
+        // Temporary arrays
+        int[] leftArray = new int[n1];
+        int[] rightArray = new int[n2];
+
+        // Copy data to temporary arrays
+        for (int i = 0; i < n1; i++) {
+            leftArray[i] = arr[left + i];
+        }
+        for (int j = 0; j < n2; j++) {
+            rightArray[j] = arr[mid + 1 + j];
+        }
+
+        // Merge the temporary arrays
+        int i = 0, j = 0; // Initial indices of the subarrays
+        int k = left; // Initial index of the merged array
+
+        while (i < n1 && j < n2) {
+            if (leftArray[i] <= rightArray[j]) {
+                arr[k++] = leftArray[i++];
+            } else {
+                arr[k++] = rightArray[j++];
+            }
+        }
+
+        // Copy remaining elements of leftArray (if any)
+        while (i < n1) {
+            arr[k++] = leftArray[i++];
+        }
+
+        // Copy remaining elements of rightArray (if any)
+        while (j < n2) {
+            arr[k++] = rightArray[j++];
+        }
+    }
+
+    // Method to print the array
+    public static void printArray(int[] arr) {
+        for (int i : arr) {
+            System.out.print(i + " ");
         }
         System.out.println();
     }
 
-    public static void mergeSort(int[] arr, int si, int ei) {
-
-        if (si >= ei) {
-            return;
-        }
-
-        int mid = si + (ei - si) / 2;
-        // For Dividing
-        mergeSort(arr, si, mid);
-        mergeSort(arr, mid + 1, ei);
-        merge(arr, si, mid, ei);
-    }
-
-    // for merging
-    public static void merge(int[] arr, int si, int mid, int ei) {
-
-        int[] temp = new int[ei - si + 1]; // temp for the sorting element
-        int i = si; // counter for left side array
-        int j = mid + 1; // counter for right side array
-        int k = 0; // counter dfor temp array
-
-        while (i <= mid && j <= ei) {
-            System.out.println(arr[i] + " " + arr[j]);
-            if (arr[i] < arr[j]) {
-                temp[k++] = arr[i++];
-            } else {
-                temp[k++] = arr[j++];
-            }
-        }
-
-        // for leftover elememt
-        while (i <= mid) {
-            temp[k++] = arr[i++];
-        }
-
-        while (j <= ei) {
-            temp[k++] = arr[j++];
-        }
-
-        // coping from temp to original array
-        for (k = 0, i = si; k < temp.length; k++, i++) {
-            arr[i] = temp[k];
-        }
-
-    }
-
     public static void main(String[] args) {
-        // int arr[] = { 6, 3, 9, 5, 2, 8,};
-        int arr[] = { 3, 6, 1, 7, 2, 9 };
-        mergeSort(arr, 0, arr.length - 1);
-        printArr(arr);
+        int[] arr = {12, 11, 13, 5, 6, 7};
+        int n = arr.length;
+
+        System.out.println("Original array:");
+        printArray(arr);
+
+        mergeSort(arr, 0, n - 1);
+
+        System.out.println("Sorted array:");
+        printArray(arr);
     }
 }

@@ -18,14 +18,13 @@ public class _3_multiLevelInheritace {
         Dog d = new Dog();
         d.color="Brown";
         d.bread();
-        d.legs();
         d.eat();
         d.breath();
     }
 
 }
 
-class Animal {
+class Species {
     String color;
 
     void eat() {
@@ -37,7 +36,7 @@ class Animal {
     }
 }
 
-class Fish extends Animal {
+class Fishs extends Species {
     void fins() {
         System.out.println("Have Fins");
     }
@@ -47,14 +46,16 @@ class Fish extends Animal {
     }
 }
 
-class Mamals extends Animal{
+class Mamales extends Species{
     void legs(){
         System.out.println("Have legs");
     }
 }
 
-class Dog extends Mamals{
+class Dogs extends Mamales{
+
     void bread(){
+        super.legs();
         System.out.println("Have multiple breads");
     }
 }

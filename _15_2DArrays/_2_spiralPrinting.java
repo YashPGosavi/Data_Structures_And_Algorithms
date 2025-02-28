@@ -6,39 +6,33 @@ public class _2_spiralPrinting {
 
         while (startrow <= endrow && startcol <= endcol) {
 
-            //Top
+            // Print the top row
             for (int j = startcol; j <= endcol; j++) {
                 System.out.print(arr[startrow][j] + " ");
             }
-            System.out.println();
+            startrow++;
 
-            //Right
-            for (int i = startrow + 1; i <= endrow; i++) {
+            // Print the right column
+            for (int i = startrow; i <= endrow; i++) {
                 System.out.print(arr[i][endcol] + " ");
             }
-            System.out.println();
-
-            //Bottom
-            for (int j = endcol - 1; j >= startcol; j--) {
-                if(startrow==endrow){
-                    break;
-                }
-                System.out.print(arr[endrow][j] + " ");
-            }
-            System.out.println();
-
-            //Left
-            for (int i = endrow - 1; i >= startrow + 1; i--) {
-                if(startcol==endcol){
-                    break;
-                }
-                System.out.print(arr[i][startcol] + " ");
-            }
-
-            startcol++;
-            startrow++;
             endcol--;
-            endrow--;
+
+            // Print the bottom row if there are multiple rows
+            if (startrow <= endrow) {
+                for (int j = endcol; j >= startcol; j--) {
+                    System.out.print(arr[endrow][j] + " ");
+                }
+                endrow--;
+            }
+
+            // Print the left column if there are multiple columns
+            if (startcol <= endcol) {
+                for (int i = endrow; i >= startrow; i--) {
+                    System.out.print(arr[i][startcol] + " ");
+                }
+                startcol++;
+            }
         }
     }
 

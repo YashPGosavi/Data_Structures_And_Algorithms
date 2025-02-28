@@ -1,11 +1,17 @@
 /*
-Stack :-
+Stack :- it is a linear data structure that follows the LIFO (Last In First Out) principle.
+        A list with the restriction that insertion and deletion can be performed only from one end, called the top.    
         Elements are stored in the LIFO (Last In First Out) principle. That is, the last element stored in a stack will be removed first.
         It works just like a pile of plates where the last plate kept on the pile will be removed first. 
 
         Two types are stack is present 
             1. Implicit stack generates by computer program
             2. Explicit stack devloped by devloper
+
+## Applications
+    - Function Calls/Recursion
+    - undo in an editor
+    - Balanced Parentheses
 
 Operations on Stack :-
     1. push() – Insert an element at one end of the stack called top. [O(1)]              
@@ -35,7 +41,7 @@ Operations on Stack :-
 
 3 ] Stack using link list :-
                           Stack can be represented efficiently using link list.
-                          Top of stack is head head of LinkList.
+                          Top of stack is head of LinkList.
 
  */
 public class _1_introductionTStack {

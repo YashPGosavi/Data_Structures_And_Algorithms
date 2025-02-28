@@ -38,9 +38,9 @@ Traditional Method
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 
 /*
- 
+
 Prefix Method
- 
+
 *) Prefix[i] = Prefix[i-1] + arr[i];
 
 **) Prefix[End] - Prefix[Start-1];
@@ -91,30 +91,35 @@ Prefix Method
 
 /*
 Use for Max Sum :-
- Kaddans algorithm :- If sum == -Integer{
-                            sum=0;
-                             }
+    Kaddans algorithm :- If sum == -Integer{
+                                sum=0;
+                                }
 
 Time Complexity : O(n);
  */
 
 public class _8_subArraySum {
-    public static void subArraySum(int[] arr) {
-        int max = Integer.MIN_VALUE;
-        int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-            if (sum < 0) {
-                sum = 0;
-            }
-            max = Math.max(max, sum);
+    
+    public static int subArraySum(int[] nums) {
+        // Initialize variables
+        int maxCurrent = nums[0]; // Tracks the maximum sum ending at the current position
+        int maxGlobal = nums[0];  // Tracks the overall maximum sum found so far
+
+        // Iterate through the array starting from the second element
+        for (int i = 1; i < nums.length; i++) {
+            // Decide whether to extend the current subarray or start a new one
+            maxCurrent = Math.max(nums[i], maxCurrent + nums[i]);
+            // Update the global maximum if the current subarray sum is greater
+            maxGlobal = Math.max(maxGlobal, maxCurrent);
         }
-        System.out.println("Maximum Sum is : " + max);
+
+        // Return the global maximum sum
+        return maxGlobal;   
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, -2, 6, -1, 3 };
-        subArraySum(arr);
+        int[] arr = { -1, -2, -6, -1, -3 };
+        System.out.println(subArraySum(arr));
 
     }
 }

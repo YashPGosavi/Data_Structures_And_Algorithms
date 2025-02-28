@@ -46,7 +46,7 @@ public class _8_reveseALinkList {
     // Reverse LinkList TC = O(n)
     public void reverseLinkList(){
         Node prev = null;
-        Node curr = tail = head ;
+        Node curr = head ;
         Node next;
 
         while(curr != null){

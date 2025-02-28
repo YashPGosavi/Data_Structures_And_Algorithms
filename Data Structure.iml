@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Java-Functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_10_pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_11_function_method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_12_advanced_pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_13_arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_14_basicSortingAlgorithm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_15_2DArrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_16_strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_17_bitManipulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_19_Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_20_divideAndConquare" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_21_timeAndSpaceComplexity" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_22_backtracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_23_arrayList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_25_stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_26_queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_28_greedyAlgorithm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_29_binaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_32_BST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_34_heaps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_37_graphs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_8_condtionalStatment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_9_loops" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

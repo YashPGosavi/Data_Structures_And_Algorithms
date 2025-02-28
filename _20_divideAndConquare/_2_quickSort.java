@@ -15,55 +15,64 @@
 * Worst case occurs when pivot is always the smallest or the largest element.
 
  */
-
 public class _2_quickSort {
 
-    public static void printArr(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+    // Method to perform the QuickSort
+    public static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            // pi is partitioning index, arr[pi] is now at right place
+            int pi = partition(arr, low, high);
+
+            // Recursively sort elements before partition and after partition
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    // Method to partition the array
+    public static int partition(int[] arr, int low, int high) {
+        int pivot = arr[high]; // pivot element
+        int i = (low - 1); // Index of smaller element
+
+        for (int j = low; j < high; j++) {
+            // If current element is smaller than or equal to pivot
+            if (arr[j] < pivot) {
+                i++;
+
+                // Swap arr[i] and arr[j]              
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // Swap arr[i+1] and arr[high] (or pivot) 
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        return i + 1;
+    }
+
+    // Method to print the array
+    public static void printArray(int[] arr) {
+        for (int i : arr) {
+            System.out.print(i + " ");
         }
         System.out.println();
     }
 
-    public static void quickSort(int arr[], int si, int ei) {
-        //Base Case
-        if (si >= ei) {
-            return;
-        }
-
-        int pIdx = partition(arr, si, ei);
-        quickSort(arr, si, pIdx - 1);
-        quickSort(arr, pIdx + 1, ei);
-    }
-
-    public static int partition(int arr[], int si, int ei) {
-        int pivot = arr[ei];
-        int i = si - 1;
-
-        for (int j = si; j < ei; j++) {
-            if (arr[j] <= pivot) {
-                System.out.println(arr[j]+" "+ pivot);
-                i++;
-
-                // swap
-                int temp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = temp;
-            }
-        }
-
-        i++;
-        int temp = pivot;
-        arr[ei] = arr[i];
-        arr[i] = temp;
-
-        return i;
-    }
-
+    // Main method to test the QuickSort implementation
     public static void main(String[] args) {
-        int arr[] = { 6, 3, 9, 8, 2, 5 };
-        quickSort(arr, 0, arr.length - 1);
-        printArr(arr);
-    }
+        int[] arr = {10, 7, 8, 9, 1, 5};
+        int n = arr.length;
 
+        System.out.println("Original array:");
+        printArray(arr);
+
+        quickSort(arr, 0, n - 1);
+
+        System.out.println("Sorted array:");
+        printArray(arr);
+    }
 }

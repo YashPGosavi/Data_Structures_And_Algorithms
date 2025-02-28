@@ -1,7 +1,7 @@
 /*
 LinkList :- ( Linear Data-Structure )
 
-       A linked list is a collection of nodes, where each node contains some data along with information about the next node 
+       A linked list is a collection of nodes, where each node contains some data along with information about the next node
        A linked list uses non-contiguous memory locations and hence requires each node to remember where the next 
 
        * A linked list is a series of connected nodes 

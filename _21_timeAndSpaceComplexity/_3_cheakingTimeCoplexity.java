@@ -1,5 +1,5 @@
 /*
- Recursive Algorithms :- 
+Recursive Algorithms :- 
                     1. Linear Recursion
                     2. Divide And Conqure
 
@@ -63,7 +63,7 @@ public class _3_cheakingTimeCoplexity {
 }
 
     // * Fibonacci --> TC = O(n^2) ; SP = (n)
-     class fibonacci {
+    class fibonacci {
         static int fib(int n) {
             if (n == 0 || n == 1) {
                 return n;

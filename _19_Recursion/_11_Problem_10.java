@@ -10,13 +10,13 @@ public class _11_Problem_10 {
             return 1;
         }
 
-        int vertical = tileProblem(n - 1);
+        int vertical = tileProblem(n - 1); // 
         int horizontal = tileProblem(n - 2);
 
         return vertical + horizontal;
     }
 
     public static void main(String[] args) {
-        System.out.println(tileProblem(4));
+        System.out.println(tileProblem(3));
     }
 }

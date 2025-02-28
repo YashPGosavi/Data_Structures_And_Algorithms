@@ -20,7 +20,7 @@ public class _14_Problem_14 {
     }
 
     public static void main(String[] args) {
-        printBinStrings(3, 0, "");
+        printBinStrings(10, 0, "");
     }
 
 }

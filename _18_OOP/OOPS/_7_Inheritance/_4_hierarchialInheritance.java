@@ -1,6 +1,6 @@
 /*
 
-Multi Level Inheritance
+Hierarchial Inheritance
 
                Base Class
                 /      \

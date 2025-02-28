@@ -124,6 +124,7 @@ public class _1_introductionAndImplementGraph {
          */
 
         int vertex = 5;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[vertex];
 
         for(int i=0;i<vertex;i++){
@@ -157,6 +158,8 @@ public class _1_introductionAndImplementGraph {
             Edge e = graph[2].get(i);
             System.out.print(e.dest+" ");
         }
+
+
 
     }
 }

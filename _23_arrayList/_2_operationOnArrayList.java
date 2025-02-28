@@ -7,7 +7,7 @@ Operations
             TC = O(1)
 
             2. arraylist_name.add(index, element);  --> Adds at provided index
-             TC = O(n) 
+            TC = O(n) 
     
 
 2. Get Element --> extract element from required index in the arraylist
@@ -63,7 +63,7 @@ public class _2_operationOnArrayList {
         System.out.println(list);
 
         // Contains Element
-        System.out.println(list.contains(3));
+        System.out.println(list.contains(3)); // it take O(n) time
 
         //size
         System.out.println(list.size());

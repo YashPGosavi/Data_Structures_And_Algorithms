@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a297d901-3007-4741-ac6f-1713632df5d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_25_stack/_10_validParanthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_11_duplicateParanthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_12_maxAreaHistrogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_4_stackUsingCollectionFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_5_pushAtTheBottomOfTheStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_6_reverseStringUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_7_reverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_8_stockSpanProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_stack/_9_nextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_10_reverseAQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_1_introductionToQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_2_queueUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_3_circularQueueUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_4_queueUsingLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_5_queueUsingJCF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_6_queuseUsingTwoStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_7_stackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_8_firstNonRepetingLatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_queue/_9_interleaveTwoHalvesOfAQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_1_introductionToTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_2_inorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_2_preorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_3_postorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_4_levelorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_5_countOfNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_6_sumOfNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_7_heightOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_8_diameterOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_binaryTree/_9_subtreeOfAnotherTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32_BST/_1_introductionToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32_BST/_2_buldBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32_BST/_3_searchInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32_BST/_4_deleteNodeInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_1_indroductionToHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_2_hashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_3_iterationsOnHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_4_implementationHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_5_linkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_6_treeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_7_majorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Map/_8_validAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Set/_1_hashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Set/_2_iterationOnHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Set/_3_linkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Set/_4_treeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Set/_5_countDistinctElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_hashing/Set/_6_unionAndIntersaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_pattern/_1_pattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10_pattern/_1_pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/_10_pattern/_1_pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_1_function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_2_callByValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_3_questions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_4_typesOfMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_5_functionOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_6_questions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_7_binaryDecimalConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_8_scope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_9_questionBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_function_method/_9_questionBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/_11_function_method/_9_questionBankOfMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_10_numberPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_11_palindromicPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_1_hollowRactangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_2_inverseHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_3_halfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_4_floydsTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_5_0and1Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_6_butterfly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_7_solidRhombus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_8_hollowRombus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_12_advanced_pattern/_9_diamondPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_10_stockBuySell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_10_stockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/_13_arrays/_10_stockBuySell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_11_rotateAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_11_rotateAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/_13_arrays/_11_rotateAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_1_arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_1_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/_13_arrays/_1_arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_2_operationnFunctoinOnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_3_linearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_4_binarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_5_reverseTheArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_6_pairsInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_6_pairsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/_13_arrays/_6_pairsInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_7_subArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_7_subArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/_13_arrays/_7_subArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_8_subArraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_8_subArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/_13_arrays/_8_subArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_9_trappingRainwater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_arrays/_9_trappingRainwater.java" beforeDir="false" afterPath="$PROJECT_DIR$/_13_arrays/_9_trappingRainwater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_1_bubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_1_bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_1_bubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_2_selectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_2_selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_2_selectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_3_insertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_3_insertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_3_insertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_4_inbuildSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_4_inbuildSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_4_inbuildSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_5_countingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_5_countingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_5_countingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_6_questionBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_6_questionBanks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_6_questionBanks.java" beforeDir="false" afterPath="$PROJECT_DIR$/_14_basicSortingAlgorithm/_6_questionBanks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_1_introducion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_1_introducion.java" beforeDir="false" afterPath="$PROJECT_DIR$/_15_2DArrays/_1_introducion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_2_spiralPrinting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_2_spiralPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/_15_2DArrays/_2_spiralPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_3_digonalSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_3_digonalSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/_15_2DArrays/_3_digonalSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_4_searchInSortedMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_4_stairCaseSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_4_stairCaseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/_15_2DArrays/_4_stairCaseSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_2DArrays/_5_questionBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_10_splitStrinAandStoreIntoArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_11_CompareStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_11_CompareStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16_strings/_11_CompareStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_1_introductionToString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_2_stringMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_2_stringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16_strings/_2_stringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_3_palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_4_shortestPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_5_largestString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_6_stringBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_7_convertFirstLatterUpparcase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_8_stringComprassion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_8_stringComprassion.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16_strings/_8_stringComprassion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_9_questionBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_strings/_9_questionBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/_16_strings/_9_questionBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/Question1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/Question2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/Question3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_10_fastExponentiation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_2_binaryAnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_2_binaryAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/_17_bitManipulation/_2_binaryAnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_3_binaryOR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_4_binaryXOR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_5_binaryOnesComplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_6_binaryLeftShift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_7_binaryRightShift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_8_operationOnBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_bitManipulation/_9_updateithBit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Deer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Havbihourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Hourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Kangaru.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Men.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Mustang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Pen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_10_methodOverriding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_10_methodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_10_methodOverriding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_11_packages/_1_packages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_13_abstractClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_13_abstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_13_abstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_14_inerfaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_15_staticKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_15_staticKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_15_staticKeyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_16_superKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_16_superKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_16_superKeyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_1_ClassObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_1_ClassObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_1_ClassObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_1_oop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_2_AccesSpecifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_2_AccesSpecifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_2_AccesSpecifiers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_3_GettersAndSetters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_3_GettersAndSetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_3_GettersAndSetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_5_Constructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_5_Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_5_Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/Fish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/Mamals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/_1_inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/_3_multiLevelInheritace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/_3_multiLevelInheritace.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/_3_multiLevelInheritace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/_4_hierarchialInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/_4_hierarchialInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/OOPS/_7_Inheritance/_4_hierarchialInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/carnihoourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/chasePlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/OOPS/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/PracticeQuestion/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/PracticeQuestion/Question_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/PracticeQuestion/Question_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/PracticeQuestion/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_18_OOP/_18_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/_18_OOP/_18_OOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_10_Problem_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_11_Problem_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_11_Problem_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/_19_Recursion/_11_Problem_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_12_Problem_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_13_Problem_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_14_Problem_14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_14_Problem_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/_19_Recursion/_14_Problem_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_1_Introduction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_1_introductionToRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/_19_Recursion/_1_introductionToRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_2_Problem_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_3_Problem_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_4_Problem_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_5_Problem_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_6_Problem_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_7_Problem_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_8_Problem_7_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_19_Recursion/_9_Problem_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_20_divideAndConquare/_1_mergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_20_divideAndConquare/_1_mergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_20_divideAndConquare/_1_mergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_20_divideAndConquare/_2_quickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_20_divideAndConquare/_2_quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_20_divideAndConquare/_2_quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_20_divideAndConquare/_3_rotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_20_divideAndConquare/_3_rotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/_20_divideAndConquare/_3_rotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_21_timeAndSpaceComplexity/_2_spaceComplexity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_21_timeAndSpaceComplexity/_2_spaceComplexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/_21_timeAndSpaceComplexity/_2_spaceComplexity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_21_timeAndSpaceComplexity/_3_cheakingTimeCoplexity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_21_timeAndSpaceComplexity/_3_cheakingTimeCoplexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/_21_timeAndSpaceComplexity/_3_cheakingTimeCoplexity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22_backtracking/_2_btOnArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22_backtracking/_2_btOnArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/_22_backtracking/_2_btOnArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22_backtracking/_4_findPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22_backtracking/_5_nQueensProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22_backtracking/_6_gridWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22_backtracking/_7_suduko.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_10_pairSum1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_11_pairSum2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_1_introductionToArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_2_operationOnArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_2_operationOnArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23_arrayList/_2_operationOnArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_3_printReverseArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_4_findMaximum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_5_swapArraylist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_6_sortingArraylist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_6_sortingArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23_arrayList/_6_sortingArraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_7_implementationOfArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23_arrayList/_7_implementationOfArraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_8_multidimentionalArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_9_containerWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_arrayList/_9_containerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/_23_arrayList/_9_containerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_10_cheakPalindrome$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_10_cheakPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_1_introductionToLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_1_introductionToLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part I/_1_introductionToLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_2_addOprationInLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_2_addOprationInLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_3_printLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_3_printLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_4_addInMiddleOfLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_4_addInMiddleOfLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_4_addInMiddleOfLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part I/_4_addInMiddleOfLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_5_sizeOfLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_5_sizeOfLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_6_removeNodeFromLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_6_removeNodeFromLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_6_removeNodeFromLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part I/_6_removeNodeFromLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_7_searchInLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_7_searchInLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_8_reveseALinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_8_reveseALinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_8_reveseALinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part I/_8_reveseALinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_9_removeNodeFromLast$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part I/_9_removeNodeFromLast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/LinkedListAddition$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/LinkedListAddition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_1_detectCycleInLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_1_detectCycleInLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_1_detectCycleInLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part II/_1_detectCycleInLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_2_removeCycleFromLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_2_removeCycleFromLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_3_collectionFramework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_3_collectionFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part II/_3_collectionFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_4_mergeSortOnLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_4_mergeSortOnLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_4_mergeSortOnLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part II/_4_mergeSortOnLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_5_zigZagLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_5_zigZagLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_6_doublyLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_6_doublyLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_24_linkList/Part II/_7_additionInLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_24_linkList/Part II/_7_additionInLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_stack/_1_introductionTStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/_25_stack/_1_introductionTStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_stack/_2_stackUsingArrayList$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_stack/_2_stackUsingArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_stack/_3_stackUsingLinkList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_stack/_3_stackUsingLinkList$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_25_stack/_3_stackUsingLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_1_introductionAndImplementGraph$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_1_introductionAndImplementGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_1_introductionAndImplementGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/_37_graphs/_1_introductionAndImplementGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_2_bfsInGraph$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_2_bfsInGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_2_bfsInGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/_37_graphs/_2_bfsInGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_3_dfsInJava$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_3_dfsInJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_37_graphs/_3_dfsInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/_37_graphs/_3_dfsInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_8_condtionalStatment/_1_if_else.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_8_condtionalStatment/_2_else_if.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_8_condtionalStatment/_3_ternaryOpertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_8_condtionalStatment/_4_switch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_9_loops/_1_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_9_loops/_2_forLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_9_loops/_3_doWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_9_loops/_4_break.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_9_loops/_5_continue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_9_loops/_6_questionBank.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2t4XyxyhSMoUPAWCJPmtDAht0PC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application._1_if_else.executor&quot;: &quot;Run&quot;,
+    &quot;Application._2_operationOnArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application._2_operationOnArrayList">
+    <configuration name="_1_if_else" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_if_else" />
+      <module name="Data Structure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2_operationOnArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_operationOnArrayList" />
+      <module name="Data Structure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._2_operationOnArrayList" />
+        <item itemvalue="Application._1_if_else" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a297d901-3007-4741-ac6f-1713632df5d9" name="Changes" comment="" />
+      <created>1739612579108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739612579108</updated>
+    </task>
+    <servers />
+  </component>
+</project>

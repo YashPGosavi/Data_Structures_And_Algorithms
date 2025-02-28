@@ -12,49 +12,15 @@ public class _4_mergeSortOnLL {
     }
 
     public static Node head;
-    public static Node tail;
-    public static int size = 0;
 
     public void addFirst(int data) {
         Node newNode = new Node(data);
-        size++;
         if (head == null) {
-            head = tail = newNode;
+            head = newNode;
             return;
         }
         newNode.next = head;
         head = newNode;
-    }
-
-    public void addLast(int data) {
-        Node newNode = new Node(data);
-        size++;
-        if (head == null) {
-            head = tail = newNode;
-            return;
-        }
-
-        tail.next = newNode;
-        tail = newNode;
-    }
-
-    public void addMiddle(int idx, int data) {
-        Node newNode = new Node(data);
-        size++;
-        if (head == null) {
-            head = tail = newNode;
-            return;
-        }
-
-        Node prev = head;
-        int i = 0;
-        while (i < idx - 1) {
-            prev = prev.next;
-            i++;
-        }
-
-        newNode.next = prev.next;
-        prev.next = newNode;
     }
 
     public void printLinkList() {
@@ -81,9 +47,28 @@ public class _4_mergeSortOnLL {
         return slow; // mid Node
     }
 
-    // Merging teo link list
+    public Node mergeSort(Node head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        // Find Node
+        Node midNode = middleNode(head);
+
+        // Left and Right Merge Sort
+        Node rightHead = midNode.next;
+        midNode.next = null;
+        Node newLeft = mergeSort(head);
+        Node newRight = mergeSort(rightHead);
+
+        // Merge
+        return merge(newLeft, newRight);
+    }
+
+
+    // Merging two link list
     private Node merge(Node lNode, Node rNode) {
-        Node mergeLL = new Node(-1);
+        Node mergeLL = new Node(-1); // dummy node helps in merging
         Node temp = mergeLL;
 
         while (lNode != null && rNode != null) {
@@ -113,23 +98,6 @@ public class _4_mergeSortOnLL {
         return mergeLL.next; // merged list at every recursion stack level;
     }
 
-    public Node mergeSort(Node head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-
-        // Find Node
-        Node midNode = middleNode(head);
-
-        // Left and Right Merge Sort
-        Node rightHead = midNode.next;
-        midNode.next = null;
-        Node newLeft = mergeSort(head);
-        Node newRight = mergeSort(rightHead);
-
-        // Merge
-        return merge(newLeft, newRight);
-    }
 
     public static void main(String[] args) {
         _4_mergeSortOnLL ll = new _4_mergeSortOnLL();

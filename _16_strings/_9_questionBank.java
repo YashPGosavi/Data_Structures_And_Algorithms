@@ -23,6 +23,8 @@ If two strings contain the same characters but in a different order, they can be
 are anaarams or not
  */
 
+import java.util.Arrays;
+
 public class _9_questionBank {
 
     public static boolean anaarams(String a, String b) {
@@ -38,7 +40,7 @@ public class _9_questionBank {
             }
             sortArr(str1);
             sortArr(str2);
-            if(equalArr(str1,str2)==true){
+            if (equalArr(str1, str2) == true) {
                 isAnaarams = true;
             }
         }
@@ -57,21 +59,32 @@ public class _9_questionBank {
         }
     }
 
-    public static boolean equalArr(char[] str1,char[] str2) {
+    public static boolean equalArr(char[] str1, char[] str2) {
         boolean isequal = false;
         for (int i = 0; i < str1.length - 1; i++) {
-            if(str1[i]==str2[i]){
-                isequal =  true;
-            }else{
-                isequal =  false;
+            if (str1[i] == str2[i]) {
+                isequal = true;
+            } else {
+                isequal = false;
             }
         }
         return isequal;
     }
-    
+
+
+    public static boolean angramMethod2(String a, String b) {
+        char[] a1 = a.toCharArray();
+        char[] b1 = b.toCharArray();
+
+        Arrays.sort(a1);
+        Arrays.sort(b1);
+
+        return Arrays.equals(a1, b1);
+    }
+
     public static void main(String[] args) {
         String a = "cares";
         String b = "races";
-        System.out.println(anaarams(a,b));
+        System.out.println(anaarams(a, b));
     }
 }

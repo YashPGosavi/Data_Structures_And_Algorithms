@@ -22,6 +22,9 @@ public class _3_collectionFramework {
         // Print
         System.out.println(ll);
 
+        // isEmpty()
+        System.out.println(ll.isEmpty());
+
         // Size
         System.out.println(ll.size());
 

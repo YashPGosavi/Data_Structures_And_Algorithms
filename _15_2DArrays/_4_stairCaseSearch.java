@@ -3,7 +3,8 @@
 public class _4_stairCaseSearch {
     public static boolean stairCaseSearch(int arr[][], int n) {
 
-        int row = 0, col = arr[0].length - 1;
+        int row = 0; // 0th row 
+        int col = arr[0].length - 1; // last column
         // element
 
         while (row < arr.length && col >= 0) {
